@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel='stylesheet' type='text/css' media='screen' href='css/index.css'>
+    
+    <!-- React y React DOM desde el CDN -->
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    
+    <!-- Babel para que pueda compilar JSX en el navegador -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <!-- Web3.js desde el CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.6.0/dist/web3.min.js"></script>
+
+</head>
+<body>
+    <div id="root"></div>
+
+    <!-- Tus archivos JS, deben cargarse después de los scripts de React y Babel -->
+    <script type="text/babel" src="js/config.js"></script>  
+    <script type="text/babel" src='js/components.js'></script>
+    <script type="text/babel" src='js/index.js'></script>
+</body>
+</html>

@@ -1,0 +1,135 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fc;
+    color: #333;
+}
+
+/* Contenedor principal */
+div {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Título principal */
+h1 {
+    font-size: 2.5rem;
+    color: #4a90e2;
+    margin-bottom: 20px;
+}
+
+/* Sección de cuenta y balances */
+p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+/* Sección de entradas */
+h2 {
+    font-size: 1.5rem;
+    color: #4a90e2;
+    margin: 20px 0;
+}
+
+/* Estilo de los inputs y botones */
+input[type="number"],
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+input[type="number"]:focus,
+input[type="text"]:focus {
+    border-color: #4a90e2;
+    outline: none;
+}
+
+button {
+    padding: 12px 20px;
+    font-size: 1rem;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #357ab7;
+}
+
+/* Sección de Owner (para la actualización de la tasa de interés) */
+div h2 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+/* Estilos adicionales para responsividad */
+@media screen and (max-width: 768px) {
+    div {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    input[type="number"],
+    input[type="text"] {
+        font-size: 0.9rem;
+    }
+
+    button {
+        padding: 10px 15px;
+    }
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+input[type="number"] {
+    padding: 5px;
+    margin-right: 10px;
+    width: 100px;
+    font-size: 1rem;
+}
+
+button {
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+div {
+    margin-bottom: 30px;
+}

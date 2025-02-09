@@ -1,0 +1,29 @@
+{
+  "name": "bank",
+  "version": "1.0.0",
+  "description": "Simulacion de banco con interes compuesto con backend EVM",
+  "main": "index.js",
+  "scripts": {
+    "serve": "live-server src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3milioP/BlockchainBank.git"
+  },
+  "author": "Emilio Perez Arjona",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/3milioP/BlockchainBank/issues"
+  },
+  "homepage": "https://github.com/3milioP/BlockchainBank#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "dependencies": {
+  "react": "^18.0.0",
+  "react-dom": "^18.0.0",
+  "web3": "^1.6.0"
+}
+
+}
