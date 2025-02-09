@@ -41,12 +41,12 @@ h2 {
 /* Estilo de los inputs y botones */
 input[type="number"],
 input[type="text"] {
-    width: 100%;
-    padding: 10px;
+    width: 90%;
+    padding: 15px;  /* Aumentamos el padding para hacerlo más grande */
     margin: 10px 0;
     border: 1px solid #ddd;
     border-radius: 5px;
-    font-size: 1rem;
+    font-size: 1.2rem;  /* Aumentamos el tamaño de la fuente para una mejor visibilidad */
 }
 
 input[type="number"]:focus,
@@ -92,7 +92,8 @@ div h2 {
 
     input[type="number"],
     input[type="text"] {
-        font-size: 0.9rem;
+        font-size: 1rem; /* Ajustamos el tamaño de la fuente para pantallas más pequeñas */
+        padding: 12px; /* Reducción de padding para móvil */
     }
 
     button {
@@ -108,7 +109,7 @@ h2 {
 input[type="number"] {
     padding: 5px;
     margin-right: 10px;
-    width: 100px;
+    width: 150px;
     font-size: 1rem;
 }
 

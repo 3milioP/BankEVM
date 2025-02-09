@@ -21,7 +21,7 @@ contract Bank {
   // Constructor
     constructor() {
     owner = msg.sender;
-    interestRate = 500; // Tasa de interés inicial (ejemplo: 5%)
+    interestRate = 10; // Tasa de interés inicial (ejemplo: 5%)
     }
 
     
